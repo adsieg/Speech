@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>MP3 to Base64 Encoder and Decoder</title>
+  
+  
+  
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <p>Example of using the Web Audio API to load a sound file as an ArrayBuffer, encode and decode the ArrayBuffer
+  and start playing audio on user-click.</p>
+<input type="file" accept="audio/*">
+<button onclick="playSound()" disabled>Start</button>
+<button onclick="stopSound()" disabled>Stop</button>
+<div>
+<p>This will be the output of a base64 string representation of your sound file.</p>
+<textarea id="encodedResult" cols="100" rows="10">
+</textarea>
+</div>
+  
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>

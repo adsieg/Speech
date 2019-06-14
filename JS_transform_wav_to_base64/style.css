@@ -1,0 +1,13 @@
+/** 
+original:
+https://github.com/dondido/MP3-to-Base64-Encoder-and-Decoder
+
+Seems to work with any audio supported by the browser.
+Base64 conversion works with any file given:
+-> get chosen file via XMLHttpRequest -> ArrayBuffer -> bufferToBase64
+
+Updated due to deprecated webkitAudioContext:
+- webkitAudioContext -> AudioContext
+- noteOn/noteOff -> start/stop
+https://github.com/dondido/MP3-to-Base64-Encoder-and-Decoder/pull/1
+**/
